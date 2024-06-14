@@ -1,0 +1,51 @@
+asoryt()Trie array sur place en ordre croissant, de telle manière que la corrélation entre les clés et les valeurs soit conservée.
+ asort — Trie un tableau en ordre croissant et conserve l'association des index il prend en paramètre un tablau et retourne true
+
+
+
+
+<?php
+$fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");
+asort($fruits);
+foreach ($fruits as $key => $val) {
+    echo "$key = $val\n";
+}
+?>
+
+usort — Trie un tableau en utilisant une fonction de comparaison il prend en paramètre un tablau et une fonction et retourne true
+
+
+
+<?php
+function cmp($a, $b)
+{
+    if ($a == $b) {
+        return 0;
+    }
+    return ($a < $b) ? -1 : 1;
+}
+
+$a = array(3, 2, 5, 6, 1);
+
+usort($a, "cmp");
+
+foreach ($a as $key => $value) {
+    echo "$key: $value\n";
+}
+
+
+
+
+ksort — Trie un tableau en fonction des clés en ordre croissant
+
+il prend en paramètre un tablau et retourne true
+
+
+<?php
+$fruits = array("d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple");
+ksort($fruits);
+foreach ($fruits as $key => $val) {
+    echo "$key = $val\n";
+}
+?>
+

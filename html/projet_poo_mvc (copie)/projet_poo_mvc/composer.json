@@ -1,0 +1,16 @@
+{
+    "name": "sankara/sankara",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "Src\\Controller\\": "src/controller",
+            "Src\\Models\\": "src/models"
+        }
+    },
+    "authors": [
+        {
+            "name": "sarata",
+            "email": "sarata.sankara@ifnti.com"
+        }
+    ]
+}

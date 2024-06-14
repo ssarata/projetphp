@@ -1,0 +1,38 @@
+*{box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: gray;
+    
+    
+    }
+
+   .container{
+    /*background: linear-gradient(150deg ,rgb(102, 102, 97),rgb(225, 225, 226),#f0e8e8 ,rgb(0, 255, 0),red) ;
+    */width: 100%;
+    background-color: rgb(8, 17, 19);
+
+    border-radius: 70px 0px;
+    padding: 50px;
+    margin: auto;
+    
+    margin: 10%;
+    
+    margin: 0;
+    padding-left: 0;
+    margin-right: 50%;
+
+   }
+   table th{ padding: 10px;}
+   table td{ padding: 10px;}
+
+   table {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+   }
+
+tr:nth-child(even){
+    background: rgba(0, 128, 0, 0.301);
+}

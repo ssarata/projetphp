@@ -1,0 +1,177 @@
+\documentclass[12pt,b5paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{sankara sarata}
+\begin{document}
+\section{groupe 1}
+\subsection{Qu’est-ce que la programmation orientée objet ?}
+
+La programmation orientée objet (POO), ou programmation par objet, est un paradigme de programmation informatique\\
+\subsection{A quoi sert la programmation orientée objet ?}
+la programmation orientée objet sert a créer une classe qui est un modèle qui va nous servir de construire des objets\\
+
+\subsection{POO est un nouveau langage de programmation ?}
+non\\
+\subsection{Différence entre la programmation orientée objet et la programmation procédurale}
+ la programmation orientée objet et la programmation procédurale est que avec la programmation procédurale on code en block or la programmation orientée objet nous permet de créer classe pour bien structuré notre code \\
+\subsection{Qu’est-ce qu’une classe ? Objet ?}
+une classe est la représentation abstraite d'un objet.elle regroupe les methodes et les attributs\\
+un objet est une instance de classe\\
+Faire une équivalence entre variable et propriété en PHP.\\
+\subsection{Faire une équivalence entre fonction et méthode en PHP.}
+\section{groupe 2}
+\subsection{C’est quoi un constructeur et promotion de constructeur puis un destructeur ?}
+le constructeur nous permet de créer des objets
+le destructeur permet de détruire les objets
+
+\subsection {Faut-il implémenter explicitement les constructeurs ou les destructeurs ?}
+oui pour pouvoir créer des objets avec des propriétés qui ont des valeurs
+\subsection{3. A quoi sert le mot clé \$this?}
+\$this permet de faire reférence a l'objet courant
+
+\subsection{ Y-a t-il un ramassage miette (Garbage collector comme en Java ) en PHP .}
+\subsection{ C’est quoi une méthode en POO ?}
+un méthode poo est ensemble de code réutilisable
+
+\subsection{ C’est quoi les setters et les getters ? Montrez comment elles sont nommées conventionnellement.}
+les \textbf{setters} nous permet de modifier les propriétés et les
+\textbf{getters} nous permet d’accéder aux propriétés d'une classe
+ils sont nommées conventionnellement setNomattribut ou getNomattribut
+\section{groupe 3}
+\subsection{ C’est quoi l’héritage en PHP dans POO ?}
+ L'héritage permet à une classe de réutiliser le code d'une autre classe sans le dupliquer.
+\subsection{A quoi sert le mot clé extends ?}
+extends permet de définir qu'une classe hérite d'une autre classe
+\subsection{PHP supporte t-il l’héritage multiple ?}
+non
+\subsection{ Comment appelle t-on la classe qui a hérité d’une autre classe ? Et celle dont a hérité ?}
+ la classe qui a hérité d’une autre classe est appelé classe fille et  celle dont a hérité elle appeler classe mère
+\subsection{Expliquer nous la notion de surcharge de méthodes}
+la surcharge de méthodes c'est le fait d'avoir plusieurs méthodes de même noms mais de signatures différentes dans une même classe 
+\subsection{ Expliquer nous la notion d’abstraction}
+L'abstraction c'est rendre une classe non instanciable 
+\subsection{Quand est-ce qu’on utilise le modificateur de visibilité protected en PHP}
+on utilise le modificateur de visibilité protected en PHP quand on veut que les propriétés et les méthodes protégées soient visible dans la classe et ses classes filles
+\section{Groupe 4}
+
+\section{Comment appliquer le modificateur de visibilité protected des propriétés et quand est-ce qu’il faut l’utiliser ?}
+le modificateur de visibilité protected des propriétés applique protected nomPropriete; elle est utiliser quand la classe mere ou les classe en ont besoin
+\section{C’est quoi le Polymorphisme ?}
+Le polymorphisme permet à des objets de différentes classes de répondre différemment en fonction du même message.
+\section{C’est quoi l’Interface ?}
+l'interface est une regroupement de constantes et des méthodes abstraite
+\section{groupe 5}
+\subsection{Quel avantage offre le trait ?} 
+le trait  nous permet regrouper des méthodes de manière fine et cohérente
+\subsection{A quoi sert le mot clé use dans le cas du trait ?} 
+le mot clé use nous permet d'utiliser un trait dans une classe
+\section{groupe 6}
+Les Méthodes statiques sont les methodes liés à la classe 
+les propriétés sont les propriétés liés à la classe
+les propriétés statiques sont utiliser uniquement dans les Méthodes statiques
+la différence qui existe entre les propriétés de classe et les propriétés d’instance
+est que avec  pour acceder les propriétés de classe on utlise la classe et pour
+acceder les propriétés d'instance on utlise l'objet
+\subsection{Donner une explication du mot clé static}
+le mot clé static permet de definir les methodes et propriétés statiques
+
+
+\subsection{Donner une explication du mot clé self et de l’opérateur ::}
+le mot clé self est utliliser pour accéder aux méthodes et propriétés statiques au sein de la classe.
+ l’opérateur :: est utiliser pour invoker les methodes et les propriétés static
+
+\subsection{Comment utiliser les méthodes de classe à l’intérieur de la classe et à l’extérieur de la
+classe ?}
+pour  utiliser les méthodes de classe à l’intérieur de la classe \\
+self::nomMethode()\\
+
+pour  utiliser les méthodes de classe à l’extérieur de la classe \\
+parent::nomMethode()\\
+\subsection{ Donner l’importance des constantes
+}
+Les constantes nous permet de definir les variables qui ne vont evolués lors du programme
+
+\subsection{Parler nous de late static binding et comment l’utiliser efficacement.} 
+late static binding   appelée liaisons statiques tardives en francais est utiliser pour \\
+invoker les methodes et propriétés static\\
+pour l'utiliser on fait static::nomMethode s'il sagit d'une methode static\\
+static::nomPropriete s'il sagit d'une propriété static
+
+
+
+\section{groupe 7}
+\subsection{Faire des recherches sur Les constantes de classes}
+ Les constantes de classes sont les constantes liées à la classe .Les classes filles peuvent modifier les constantes de cette classe s'il n'est pas finale\\
+\subsection{Savoir maîtriser Late Static Binding}
+late static binding, en français la résolution statique à la volée, qui peut être utilisée pour référencer la classe appelée dans un contexte d'héritage statique\\
+\subsection{Comprendre comment les méthodes magiques fonctionnent :}
+ \textbf{\_\_get ()} Cette méthode est automatiquement appelée lorsqu'on tente d'accéder à une propriété inaccessible d'un objet,elle prend en paramètre un le nom de la propriété inaccessible \\
+\textbf{ \_\_ set() } Cette méthode est automatiquement appelée lorsqu'on tente de modifier à une propriété inaccessible d'un objet, elle prend en paramètre la propriété et la valeur qui l'on souhaite donné à la propriété et ne retourne rien \\
+\textbf{ \_\_ call()} est une méthode qui est invoquée lorsque l'appel d'une méthode non déclarée ou inaccessible est eﬀectué sur
+un objet\\
+\textbf{\_\_ callStatic()} Cette méthode est automatiquement appelée lorsqu'on tente d'accéder à une propriété inaccessible d'une classe, \\
+\textbf{\_\_ invoke()} permet à un objet d'etre invoker comme une fonction.exemple nomObjet(),\\
+ \textbf{\_\_ toString ()} est une méthodes qui ne prend rien en paramètre et retourne une chaine de caractère .cette methode est appeler
+si l'on affiche un objet\\
+ 
+ 
+ 
+\section{GROUPE 8 } 
+Recherche :
+\subsection{Sérialisation des Objets avec la méthode serialize ( )}
+sérialiser un objet consiste a transformé cet objet en chaîne de caractère et lui stocké dans une variable
+\subsection{ Désérialisation des objets avec la méthode unserialize ( )}
+\subsection{clonage des objets}
+cloner un objet c'est faire le sauvegarde de cet objet dans une variable\\
+\subsection{ Comparaison des objets}
+ \subsection{Les classes anonymes}
+ Une classe anonyme est une classe sans nom déclaré.Pour obtenir le nom généré, vous pouvez utiliser la fonction get\_class().
+
+
+ \section{Groupe 9}
+\subsection{ Les namespaces}
+Les namespaces nous permet d'utiliser des classe de même nom dans le même projet en définissant chaque classe dans des namespaces différents.pour définir un namespace on fait\\ \textbf{namespace nomDeNamespace};
+\subsection{ Le mot clé use dans namespaces}
+Le  mot clé use dans namespaces permet d'importer une classe à partir de son namespace
+\subsection{le mot clé alias}
+les alias permet de renommer les chemins vers les fichiers
+
+\section{groupe 10}
+
+\subsection{Chargement automatique des classes à l’aide de la fonction spl\_autoload\_registrer( )}
+la fonction spl\_autoload\_registrer()  Enregistre une fonction en tant qu'implémentation de \_\_autoload() elle prend en paramètre un collbak le collbak prend en paramètre  la classe et on définie le chemin vers la classe
+\subsection{Chargement automatique des classes à l’aide de la fonction \_ \_autoload( ) mais obsolète}
+ la fonction \_ \_autoload( ) Tente de charger une classe indéfinie.elle prend en paramètre le nom de la classe et ne retourne rien
+\subsection{ Chargement automatique des classes à l’aide du gestionnaire des paquets de PHP appelé
+composer}
+\subsection{psr-4}
+ Le PSR-4 définit un système d'autoloading (chargement automatique des classes) standard pour PHP, permettant aux développeurs de charger automatiquement les classes sans avoir à les inclure manuellement.
+ dans le PSR-4 nous définition un tableau associatif qui a pour clé nos namespace et valeurs le nom de nos dossiers
+ 
+ \section{groupe 11}
+ \subsection{Gestion des erreurs}
+\subsection{set\_error\_handler()} 
+\subsection{set\_exception\_handler()} 
+\subsection{try … catch ...finally}
+\subsection{Throw}
+Le throw permet de propager l'erreur.
+\subsection{la classe Exception}
+ 
+ 
+ \section{groupe 12}
+ \subsection{ class\_exists()}
+  class\_exists() prend en paramètre le nom de la classe et vérifie si la classe existe
+\subsection{ method\_exists ()}
+ method\_exists ()Vérifie si la méthode de classe existe.elle prend en paramètre l'objet et la classe et la méthode et elle retourne un boolean
+\subsection{ property\_exists ()}
+ property\_exists () permet de vérifier si une propriété existe dans une classe.elle prend en paramètre l'objet de la classe et le nom de la propriété en chaîne et retourne true si la méthode existe et false si elle existe pas
+ 
+ 
+ 
+
+\end{document}

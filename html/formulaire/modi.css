@@ -1,0 +1,32 @@
+*{ 
+    padding: 0px;
+   margin: 0px;
+   justify-content: center;
+  /* display: inline;*/
+}
+
+input{
+    padding: 5px;
+    margin: 15px;
+    border-radius: 70px 0px;
+}
+
+h1{
+    margin:auto;
+    border: 1px solid greenyellow;
+    background-color: aqua;
+    color: aliceblue;
+}
+.container{width: 350px;
+    background-color: rgb(184, 11, 118);
+   
+    padding: 10px;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 70px 0px;
+    color: aliceblue;
+
+}
+.container{
+  
+}
